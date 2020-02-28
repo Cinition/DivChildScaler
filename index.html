@@ -1,0 +1,39 @@
+<html>
+    <head> 
+        <script src="ScalingScript.js"></script>
+        <style>
+            .MyResizer.ResizerMainScreen {
+                float: left;
+                width: 250px;
+                height: 100%;
+                background-color: brown;
+            }
+            .MyResizer.ResizerResizingBar {
+                float: left;
+                width: 50px;
+                height: 100%;
+                background-color: rgb(43, 204, 156);
+            }
+            .MyResizer.ResizerSecondaryScreen {
+                float: left;
+                width: 300px;
+                height: 100%;
+                background-color: darkviolet;
+            }
+        </style>
+    </head>
+    <div style="padding: 123px; height: 100px;">
+        <div style="width:600px; margin-left: 235px;">
+            <div class="MyResizer ResizerMainScreen">
+    
+            </div>
+            <div class="MyResizer ResizerResizingBar">
+                
+            </div>
+            <div class="MyResizer ResizerSecondaryScreen">
+                
+            </div>
+        </div>
+    </div>
+    <script>Scaling("WE","MyResizer")</script>
+</html>
